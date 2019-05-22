@@ -1,6 +1,44 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from . import forms, models
+import os
 
 # Create your views here.
 
 def Home(request):
     return render(request,'home.html')
+
+def finished(request):
+    return render(request, 'finished.html')
+
+def Location(request):
+    
+    received_locations=[]
+
+    data = {
+        'locations' : [],
+        'things' : []
+    }
+
+    if (request.GET.get('locations')):
+        received_locations = request.GET.get('locations')
+        data['locations'] = received_locations.split()
+
+    if request.POST.getlist('things'):
+        filename = 0
+
+        if os.listdir('collected_data'):
+            for file in os.listdir('collected_data'):
+                if int(file.split('.')[0]) >= filename:
+                    filename+=1
+
+        with open('collected_data/'+str(filename)+".txt" , 'w') as f:
+
+            for location,thing in zip(data['locations'],request.POST.getlist('things')):
+                f.write(location)
+                f.write(":")
+                f.write(thing)
+                f.write('\n')
+            
+        return redirect('../finished/')
+
+    return render(request, 'Location.html', data)

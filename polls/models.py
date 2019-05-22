@@ -18,5 +18,8 @@ class Choice(models.Model):
         return self.choice_text
 
 class Questionaire(models.Model):
-    text = models.CharField(max_length=200)
-    answer=models.CharField(max_length=200)
+    locations = models.CharField(max_length=200)
+    things=models.CharField(max_length=200)
+
+    def __str__(self):
+        return f"{self.locations} : {self.things}"
