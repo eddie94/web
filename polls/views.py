@@ -24,14 +24,12 @@ def Location(request):
         data['locations'] = received_locations.split()
 
     if request.POST.getlist('things'):
-        filename = 0
+        filename = ''
 
-        if os.listdir('collected_data'):
-            for file in os.listdir('collected_data'):
-                if int(file.split('.')[0]) >= filename:
-                    filename+=1
+        if os.listdir('./collected_data'):
+            filename = str(len(os.listdir('./collected_data')))
 
-        with open('collected_data/'+str(filename)+".txt" , 'w') as f:
+        with open('./collected_data/'+str(filename)+".txt" , 'w') as f:
 
             for location,thing in zip(data['locations'],request.POST.getlist('things')):
                 f.write(location)
