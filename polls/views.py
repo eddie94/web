@@ -15,13 +15,13 @@ def Location(request):
     received_locations=[]
 
     data = {
-        'locations' : [],
+        'locations' : ["kitchen","bedroom"],
         'things' : []
     }
 
-    if (request.GET.get('locations')):
-        received_locations = request.GET.get('locations')
-        data['locations'] = received_locations.split()
+    # if (request.GET.get('locations')):
+    #     received_locations = request.GET.get('locations')
+    #     data['locations'] = received_locations.split()
 
     if request.POST.getlist('things'):
         filename = ''

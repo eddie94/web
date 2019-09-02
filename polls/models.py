@@ -22,4 +22,4 @@ class Questionaire(models.Model):
     things=models.CharField(max_length=200)
 
     def __str__(self):
-        return f"{self.locations} : {self.things}"
+        return "{locations} : {things}".format(self.locations, self.things)
