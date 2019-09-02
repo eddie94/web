@@ -15,7 +15,7 @@ def Location(request):
     received_locations=[]
 
     data = {
-        'locations' : ["kitchen","bedroom"],
+        'locations' : ["kitchen","bedroom","living_room","bath_room","laundry_room","dressing_room","study_room"],
         'things' : []
     }
 
