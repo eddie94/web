@@ -1,0 +1,7 @@
+kitchen:가스레인지
+bedroom:침대
+living_room:텔레비전
+bath_room:샤워부스
+laundry_room:세탁기
+dressing_room:옷장
+study_room:책장 책상

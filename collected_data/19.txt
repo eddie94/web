@@ -1,0 +1,7 @@
+kitchen:싱크대 칼 그릇 컵 양념 냄비 프라이팬 오븐 전자랜지 커피포트 수세미 건조대
+bedroom:침대 스탠드 옷장 
+living_room:TV 오디오 소파 
+bath_room:변기 세면대 욕조 샤워 거울
+laundry_room:세탁기 수도 건조대
+dressing_room:옷장 거울 
+study_room:책상 책장 컴퓨터 스탠드 필기도구

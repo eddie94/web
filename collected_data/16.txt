@@ -1,0 +1,7 @@
+kitchen:싱크대
+bedroom:침대
+living_room:TV
+bath_room:세면대
+laundry_room:세탁기
+dressing_room:행거
+study_room:책꽂이

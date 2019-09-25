@@ -1,0 +1,7 @@
+kitchen:밥
+bedroom:잠
+living_room:안마의자
+bath_room:변기
+laundry_room:세탁기
+dressing_room:옷
+study_room:노트북

@@ -1,0 +1,7 @@
+kitchen:싱크대 정수기
+bedroom:침대 장롱 스탠드등
+living_room:쇼파 티비 탁자 창문
+bath_room:변기 세수대 샤워룸
+laundry_room:세탁기 빨래통 쓰래기통 
+dressing_room:화장대 옷장
+study_room:책상 책장 컴퓨터 서랍장
