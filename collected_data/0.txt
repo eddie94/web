@@ -1,1 +1,7 @@
-부엌:식칼
+kitchen:냉장고 전자레인지 가스레인지 식탁 식칼 토스터 접시 싱크대 포크 숟가락 젓가락
+bedroom:침대 옷장 책상 서랍 
+living_room:TV 스피커 테이블
+bath_room:변기 샤워기 비누 수건
+laundry_room:세탁기 세제 
+dressing_room:옷장 옷걸이 옷 
+study_room:책상 책 의자 연필 펜 
