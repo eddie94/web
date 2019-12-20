@@ -1,7 +1,7 @@
-kitchen:냉장고, 식탁, 밥솥, 전자레인지
-bedroom:침대, 화장대, 장롱
-living_room:티비, 쇼파
-bath_room:변기, 세면대, 샴푸, 린스
-laundry_room:빨래, 세탁기
-dressing_room:옷, 옷장
-study_room:책, 교과서, 책상
+kitchen:refrigerator dining_table rice_cooker microwave
+bedroom:bed table closet
+living_room:TV sofa
+bath_room:toilet washstand shampoo rince
+laundry_room:clothes washing_machine
+dressing_room:clothes closet
+study_room:book table

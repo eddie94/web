@@ -9,6 +9,9 @@ urlpatterns = [
     path('',views.Home),
     path('first_page/',views.Location),
     path('finished/',views.finished),
+    path('en/', views.Home_en),
+    path('en/first_page/', views.Location_en),
+    path('en/finished/', views.finished_en)
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

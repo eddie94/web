@@ -1,7 +1,7 @@
-kitchen:주방세제 칼 도마 쟁반 냉장고 전자레인지 가스레인지 인덕션 커피포트 싱크대 접시 수저 행주
-bedroom:침대 화장대 선반 무드등
-living_room:쇼파 TV 전화기 시계 카펫 쿠션
-bath_room:세면대 변기 칫솔 치약 바디워시 샴푸 휴지 물티슈
-laundry_room:세제 세탁기 건조기 건조대 빨래통
-dressing_room:옷장 옷걸이 행거 습기제
-study_room:책 책상 책장 서랍 필통 컴퓨터 의자
+kitchen:detergent kitchen_knife cutting_board tray refrigerator microwave gas_range induction coffeepot sink plate spoon chopsticks dishcloth
+bedroom:bed table
+living_room:sofa TV phone clock carpet cushion
+bath_room:washstand toilet toothbrush toothpaste shampoo tissue
+laundry_room:detergent washing_machine dryer drying_rack basket
+dressing_room:closet hanger 
+study_room:book table bookshelf prncilcase computer chair

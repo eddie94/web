@@ -1,7 +1,7 @@
-kitchen:가스렌지 전자렌지 싱크대 냄비 그릇 수세미 고무장갑 에어프라이어 수전 후라이팬 접시 수저 토스터 식기세척기 세제 행주 밥솥 
-bedroom:침대 이불 베개 매트리스 매트리스커버 
-living_room:소파 테이블 티비 
-bath_room:변기 세면대 비누 수건 샤워기 샴푸 린스 
-laundry_room:세탁기 드라이어 세제 빨래걸이
-dressing_room:옷 옷걸리 서랍장 
-study_room:책상 의자 책 노트 컴퓨터 연필 볼펜  지우개 포스트잇 스태플러 테이프 클리어파일 
+kitchen:gas_range microwave sink pot plate scrubber rubber_glove pan spoon chopstick toaster dishwasher detergent rice_cooker 
+bedroom:bed blanket pillow 
+living_room:sofa table TV 
+bath_room:toilet washstand soap towel showerhead shampoo rince 
+laundry_room:washing_machine dryer detergent drying_rack
+dressing_room:clothes hanger 
+study_room:table chair book note computer pencil pen eraser post_it stapler tape 

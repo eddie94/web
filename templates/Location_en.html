@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+    </head>
+
+    <body>
+        <h1>Things we observe</h1>
+        <p>There are many things surrounding us.</p>
+        <p>A TV in our living room, microwave in our kitchen etc.</p>
+        <p>Now let's think about what we see in some places.</p>
+        <p>Please write as much as objects related to the keywords below.</p>
+
+        <br>
+        <h2>Warning</h2>
+        <p>Please use a blank character to separate multiple objects.</p>
+        <br>
+
+        <form action="" method="POST">
+            {%csrf_token%}
+            <label> Objects in a "Kitchen" <input type="text" size="40" name="things"></label>
+            <br><br>
+            <label> Objects in a "Bedroom" <input type="text" size="40" name="things"></label>
+            <br><br>
+            <label> Objects in a "Living room" <input type="text" size="40" name="things"></label>
+            <br><br>
+            <label> Objects in a "Bathroom" <input type="text" size="40" name="things"></label>
+            <br><br>
+            <label> Objects in a "Laundry room" <input type="text" size="40" name="things"></label>
+            <br><br>
+            <label> Objects in a "Dressing room" <input type="text" size="40" name="things"></label>
+            <br><br>
+            <label> Objects in a "Study Room" <input type="text" size="40" name="things"></label>
+            <br><br>
+            <input type="submit" value="Submit" style="font-size: 18px;">
+        </form>
+
+    </body>
+</html>

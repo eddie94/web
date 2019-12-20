@@ -1,7 +1,7 @@
-kitchen:칼
-bedroom:침대
+kitchen:kitchen_knife
+bedroom:bed
 living_room:tv
-bath_room:변기
-laundry_room:세탁기
-dressing_room:겉옷 코트
-study_room:책장 책
+bath_room:toilet
+laundry_room:washing_machine
+dressing_room:clothes
+study_room:book_shelf book

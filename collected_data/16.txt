@@ -1,7 +1,7 @@
-kitchen:싱크대
-bedroom:침대
+kitchen:sink
+bedroom:bed
 living_room:TV
-bath_room:세면대
-laundry_room:세탁기
-dressing_room:행거
-study_room:책꽂이
+bath_room:washstand
+laundry_room:washing_macine
+dressing_room:habger
+study_room:bookshelf

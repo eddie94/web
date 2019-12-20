@@ -1,7 +1,7 @@
-kitchen:칼 냄비 불 
-bedroom:침대 배개 
-living_room:소파 TV
-bath_room:변기 세면대
-laundry_room:세탁기 건조기
-dressing_room:옷걸이 장롱
-study_room:책 책상
+kitchen:kitchen_knife pot gas_range 
+bedroom:bed pillow 
+living_room:sofa TV
+bath_room:toilet washstand
+laundry_room:washing_machine dryer
+dressing_room:hanger closet
+study_room:book table

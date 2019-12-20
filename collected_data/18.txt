@@ -1,7 +1,7 @@
-kitchen:도마
-bedroom:침대
-living_room:쇼파
-bath_room:변기
-laundry_room:세탁기
-dressing_room:장롱
-study_room:스탠드
+kitchen:cutting_board
+bedroom:bed
+living_room:sofa
+bath_room:toilet
+laundry_room:washing_machine
+dressing_room:closet
+study_room:light_stand

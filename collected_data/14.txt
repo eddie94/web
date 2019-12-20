@@ -1,7 +1,0 @@
-kitchen:토마토
-bedroom:베개
-living_room:넓다
-bath_room:쾌변
-laundry_room:세제
-dressing_room:공기청정기
-study_room:책
