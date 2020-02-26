@@ -56,7 +56,7 @@ def Location_en(request):
         if os.listdir('./collected_data'):
             filename=str(len(os.listdir('./collected_data')))
             
-        with open('./collected_data/'+str(filename)+"_en.txt", 'w') as f:
+        with open('./collected_data/'+str(filename)+".txt", 'w') as f:
             for location,thing in zip(data['locations'], request.POST.getlist('things')):
                 f.write(location)
                 f.write(":")
