@@ -16,6 +16,31 @@ def finished(request):
 def finished_en(request):
     return render(request, 'finished_en.html')
 
+def Location_en_check(request):
+
+    data={
+        'locations' : ["kitchen","bedroom","living_room","bath_room","dining_room","none"],
+        'things' : ["oven","microwave","toaster","sink","refrigerator",
+                    "TV","laptop","remote","mouse","keyboard",
+                    "cell phone","couch","chair","potted plant","bed",
+                    "dining table","toilet","bottle","wine glass","cup",
+                    "fork","knife","spoon","bowl","book",
+                    "clock","vase","scissors","teddy bear","hair dryer",
+                    "toothbrush"]
+    }
+    
+    if request.POST:
+        num_of_files = len(os.listdir("./collected_data/"))
+        with open("./collected_data/"+str(num_of_files)+".txt",'w') as f:
+            for item in data['things']:
+                if request.POST.getlist(item):
+                    f.write(item+":")
+                    for locations in request.POST.getlist(item):
+                        f.write(locations+" ")
+                    f.write("\n")
+
+    return render(request, 'Location_en_check.html')
+
 def Location_en(request):
     
     recieved_locations = []
