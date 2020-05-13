@@ -7,6 +7,12 @@
     </head>
 
     <body>
+        <h1>About this questionnaire</h1>
+        <p>The answer collected by this questionnaire is used for understanding the surrounding for a robot.</p>
+        <p>Personal information is not collected except the country you were born.</p>
+        <p>All the data is used for research purpose.</p>
+        <p>Thank you for the cooperation.</p>
+        <br><br>
         <h1>Things in certain places</h1>
         <p>There are many things surrounding us.</p>
         <p>A TV in our living room, microwave in our kitchen etc.</p>
@@ -15,11 +21,16 @@
 
         <br>
         <h2>Warning</h2>
-        <p>Multiple choices are accepted.</p>
-        <br>
-        
+        <p><font size="5">Multiple choices are accepted.</font></p>
+        <p><font size="5">When you type something in the 'anything else' textbox,</font></p>
+        <p><font size="5" color="red">please be sure to separate items with a blank space.</font></p>
+        <br/>
         <form action="" method="POST">
             {%csrf_token%}
+
+            <font size="6">The country you were born</font><br>
+            <input type="text" name="nation" style="width:200px;" value=""><font size="6"></font><br><br>
+
             <label><font size="7">Kitchen</font></label><br>
             <input type="checkbox" name="Kitchen" value="oven"><font size="6">oven</font>
             <input type="checkbox" name="Kitchen" value="microwave"><font size="6">microwave</font>
@@ -50,8 +61,10 @@
             <input type="checkbox" name="Kitchen" value="vase"><font size="6">vase</font>
             <input type="checkbox" name="Kitchen" value="scissors"><font size="6">scissors</font>
             <input type="checkbox" name="Kitchen" value="bear"><font size="6">teddy bear</font>
-            <input type="checkbox" name="Kitchen" value="dryer"><font size="6">hair dryer</font><br>
-            <input type="checkbox" name="Kitchen" value="None"><font size="6">none of the above</font><br><br>
+            <input type="checkbox" name="Kitchen" value="dryer"><font size="6">hair dryer</font><br><br>
+            <input type="checkbox" name="Kitchen" value="none"><font size="6">None of the above</font><br><br>
+            <font size="6">Anything else than mentioned above</font><br>
+            <input type="text" name="Kitchen" style="width:600px;" value=""><font size="6"></font><br><br>
 
             <label><font size="7">Bedroom</font></label><br>
             <input type="checkbox" name="Bedroom" value="oven"><font size="6">oven</font>
@@ -84,7 +97,9 @@
             <input type="checkbox" name="Bedroom" value="scissors"><font size="6">scissors</font>
             <input type="checkbox" name="Bedroom" value="bear"><font size="6">teddy bear</font>
             <input type="checkbox" name="Bedroom" value="dryer"><font size="6">hair dryer</font><br>
-            <input type="checkbox" name="Bedroom" value="None"><font size="6">none of the above</font><br><br>
+            <input type="checkbox" name="Bedroom" value="none"><font size="6">None of the above</font><br><br>
+            <font size="6">Anything else than mentioned above</font><br>
+            <input type="text" name="Bedroom" style="width:600px;" value=""><font size="6"></font><br><br>
 
             <label><font size="7">Livingroom</font></label><br>
             <input type="checkbox" name="Livingroom" value="oven"><font size="6">oven</font>
@@ -117,7 +132,9 @@
             <input type="checkbox" name="Livingroom" value="scissors"><font size="6">scissors</font>
             <input type="checkbox" name="Livingroom" value="bear"><font size="6">teddy bear</font>
             <input type="checkbox" name="Livingroom" value="dryer"><font size="6">hair dryer</font><br>
-            <input type="checkbox" name="Livingroom" value="None"><font size="6">none of the above</font><br><br>
+            <input type="checkbox" name="Livingroom" value="none"><font size="6">None of the above</font><br><br>
+            <font size="6">Anything else than mentioned above</font><br>
+            <input type="text" name="Livingroom" style="width:600px;" value=""><font size="6"></font><br><br>
 
             <label><font size="7">Bathroom</font></label><br>
             <input type="checkbox" name="Bathroom" value="oven"><font size="6">oven</font>
@@ -150,7 +167,9 @@
             <input type="checkbox" name="Bathroom" value="scissors"><font size="6">scissors</font>
             <input type="checkbox" name="Bathroom" value="bear"><font size="6">teddy bear</font>
             <input type="checkbox" name="Bathroom" value="dryer"><font size="6">hair dryer</font><br>
-            <input type="checkbox" name="Bathroom" value="None"><font size="6">none of the above</font><br><br>
+            <input type="checkbox" name="Bathroom" value="none"><font size="6">None of the above</font><br><br>
+            <font size="6">Anything else than mentioned above</font><br>
+            <input type="text" name="Bathroom" style="width:600px;" value=""><font size="6"></font><br><br>
 
             <label><font size="7">Diningroom</font></label><br>
             <input type="checkbox" name="Diningroom" value="oven"><font size="6">oven</font>
@@ -183,40 +202,44 @@
             <input type="checkbox" name="Diningroom" value="scissors"><font size="6">scissors</font>
             <input type="checkbox" name="Diningroom" value="bear"><font size="6">teddy bear</font>
             <input type="checkbox" name="Diningroom" value="dryer"><font size="6">hair dryer</font><br>
-            <input type="checkbox" name="Diningroom" value="None"><font size="6">none of the above</font><br><br>
+            <input type="checkbox" name="Diningroom" value="none"><font size="6">None of the above</font><br><br>
+            <font size="6">Anything else than mentioned above</font><br>
+            <input type="text" name="Diningroom" style="width:600px;" value=""><font size="6"></font><br><br>
 
-            <label><font size="7">Personal_room</font></label><br>
-            <input type="checkbox" name="Personal_room" value="oven"><font size="6">oven</font>
-            <input type="checkbox" name="Personal_room" value="microwave"><font size="6">microwave</font>
-            <input type="checkbox" name="Personal_room" value="toaster"><font size="6">toaster</font>
-            <input type="checkbox" name="Personal_room" value="sink"><font size="6">sink</font>
-            <input type="checkbox" name="Personal_room" value="refrigerator"><font size="6">refrigerator</font><br>
-            <input type="checkbox" name="Personal_room" value="TV"><font size="6">TV</font>
-            <input type="checkbox" name="Personal_room" value="laptop"><font size="6">laptop</font>
-            <input type="checkbox" name="Personal_room" value="remote"><font size="6">remote</font>
-            <input type="checkbox" name="Personal_room" value="mouse"><font size="6">mouse(for PC)</font>
-            <input type="checkbox" name="Personal_room" value="keyboard"><font size="6">keyboard</font><br>
-            <input type="checkbox" name="Personal_room" value="phone"><font size="6">phone</font>
-            <input type="checkbox" name="Personal_room" value="couch"><font size="6">couch</font>
-            <input type="checkbox" name="Personal_room" value="chair"><font size="6">chair</font>
-            <input type="checkbox" name="Personal_room" value="plant"><font size="6">potted plant</font>
-            <input type="checkbox" name="Personal_room" value="bed"><font size="6">bed</font><br>
-            <input type="checkbox" name="Personal_room" value="table"><font size="6">table</font>
-            <input type="checkbox" name="Personal_room" value="toilet"><font size="6">toilet</font>
-            <input type="checkbox" name="Personal_room" value="bottle"><font size="6">bottle</font>
-            <input type="checkbox" name="Personal_room" value="glass"><font size="6">wine glass</font>
-            <input type="checkbox" name="Personal_room" value="cup"><font size="6">cup</font><br>
-            <input type="checkbox" name="Personal_room" value="fork"><font size="6">fork</font>
-            <input type="checkbox" name="Personal_room" value="knife"><font size="6">knife</font>
-            <input type="checkbox" name="Personal_room" value="spoon"><font size="6">spoon</font>
-            <input type="checkbox" name="Personal_room" value="bowl"><font size="6">bowl</font>
-            <input type="checkbox" name="Personal_room" value="book"><font size="6">book</font><br>
-            <input type="checkbox" name="Personal_room" value="clock"><font size="6">clock</font>
-            <input type="checkbox" name="Personal_room" value="vase"><font size="6">vase</font>
-            <input type="checkbox" name="Personal_room" value="scissors"><font size="6">scissors</font>
-            <input type="checkbox" name="Personal_room" value="bear"><font size="6">teddy bear</font>
-            <input type="checkbox" name="Personal_room" value="dryer"><font size="6">hair dryer</font><br>
-            <input type="checkbox" name="Personal_room" value="None"><font size="6">none of the above</font><br><br>
+            <label><font size="7">Home_office</font></label><br>
+            <input type="checkbox" name="Home_office" value="oven"><font size="6">oven</font>
+            <input type="checkbox" name="Home_office" value="microwave"><font size="6">microwave</font>
+            <input type="checkbox" name="Home_office" value="toaster"><font size="6">toaster</font>
+            <input type="checkbox" name="Home_office" value="sink"><font size="6">sink</font>
+            <input type="checkbox" name="Home_office" value="refrigerator"><font size="6">refrigerator</font><br>
+            <input type="checkbox" name="Home_office" value="TV"><font size="6">TV</font>
+            <input type="checkbox" name="Home_office" value="laptop"><font size="6">laptop</font>
+            <input type="checkbox" name="Home_office" value="remote"><font size="6">remote</font>
+            <input type="checkbox" name="Home_office" value="mouse"><font size="6">mouse(for PC)</font>
+            <input type="checkbox" name="Home_office" value="keyboard"><font size="6">keyboard</font><br>
+            <input type="checkbox" name="Home_office" value="phone"><font size="6">phone</font>
+            <input type="checkbox" name="Home_office" value="couch"><font size="6">couch</font>
+            <input type="checkbox" name="Home_office" value="chair"><font size="6">chair</font>
+            <input type="checkbox" name="Home_office" value="plant"><font size="6">potted plant</font>
+            <input type="checkbox" name="Home_office" value="bed"><font size="6">bed</font><br>
+            <input type="checkbox" name="Home_office" value="table"><font size="6">table</font>
+            <input type="checkbox" name="Home_office" value="toilet"><font size="6">toilet</font>
+            <input type="checkbox" name="Home_office" value="bottle"><font size="6">bottle</font>
+            <input type="checkbox" name="Home_office" value="glass"><font size="6">wine glass</font>
+            <input type="checkbox" name="Home_office" value="cup"><font size="6">cup</font><br>
+            <input type="checkbox" name="Home_office" value="fork"><font size="6">fork</font>
+            <input type="checkbox" name="Home_office" value="knife"><font size="6">knife</font>
+            <input type="checkbox" name="Home_office" value="spoon"><font size="6">spoon</font>
+            <input type="checkbox" name="Home_office" value="bowl"><font size="6">bowl</font>
+            <input type="checkbox" name="Home_office" value="book"><font size="6">book</font><br>
+            <input type="checkbox" name="Home_office" value="clock"><font size="6">clock</font>
+            <input type="checkbox" name="Home_office" value="vase"><font size="6">vase</font>
+            <input type="checkbox" name="Home_office" value="scissors"><font size="6">scissors</font>
+            <input type="checkbox" name="Home_office" value="bear"><font size="6">teddy bear</font>
+            <input type="checkbox" name="Home_office" value="dryer"><font size="6">hair dryer</font><br>
+            <input type="checkbox" name="Home_office" value="none"><font size="6">None of the above</font><br><br>
+            <font size="6">Anything else than mentioned above</font><br>
+            <input type="text" name="Home_office" style="width:600px;" value=""><font size="6"></font><br><br>
 
             <label><font size="7">Hallway</font></label><br>
             <input type="checkbox" name="Hallway" value="oven"><font size="6">oven</font>
@@ -249,10 +272,20 @@
             <input type="checkbox" name="Hallway" value="scissors"><font size="6">scissors</font>
             <input type="checkbox" name="Hallway" value="bear"><font size="6">teddy bear</font>
             <input type="checkbox" name="Hallway" value="dryer"><font size="6">hair dryer</font><br>
-            <input type="checkbox" name="Hallway" value="None"><font size="6">none of the above</font><br><br>
+            <input type="checkbox" name="Hallway" value="none"><font size="6">None of the above</font><br><br>
+            <font size="6">Anything else than mentioned above</font><br>
+            <input type="text" name="Hallway" style="width:600px;" value=""><font size="6"></font><br><br>
             <br>
             <br>
             <br>
+
+            <font size="6">Enter any kind of room or places that are not mentioned above,</font><br>
+            <font size="6">with items that belong in that place.</font><br>
+            <font size="6">Multiple answers are possible.</font><br>
+            <font size="6">please enter in this format: </font><font size="6" color="red">place(item1 item2 item3)</font><br>
+            <font size="6"> Ex) kitchen(oven toaster refrigerator knife) bathroom(toilet bathtub)</font><br>
+            <input type="text" name="else" style="width:600px;" value=""><font size="6"></font><br><br>
+
             <input type="submit" value="Submit" style="font-size: 18px;">
         </form>
     </body>

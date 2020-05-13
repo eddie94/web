@@ -19,7 +19,7 @@ def finished_en(request):
 def Location_en_check(request):
 
     data={
-        'locations' : ["Kitchen","Bedroom","Livingroom","Bathroom","Diningroom","Personal_room","Hallway"],
+        'locations' : ["Kitchen","Bedroom","Livingroom","Bathroom","Diningroom","Home_office","Hallway",'else','nation'],
         'things' : ["oven","microwave","toaster","sink","refrigerator",
                     "TV","laptop","remote","mouse","keyboard",
                     "phone","couch","chair","plant","bed",
