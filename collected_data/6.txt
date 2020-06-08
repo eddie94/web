@@ -1,7 +1,9 @@
-kitchen:table cutting_board kitchen_knife sink range_hood induction airfryer plate refrigerator dish_washer roce_cooker water_fountain water_purifier coffee_pot toaster mixer pot ladle spoon chopstick microwave 
-bedroom:bed closet curtain table dryer
-living_room:TV speaker sofa table flowerpot photoframe air_conditioner
-bath_room:washstand toilet shower_head mirror towel shampoo toothbrush toothpaste
-laundry_room:washing_machine dryer detergent 
-dressing_room:closet hanger iron iron_stand
-study_room:book bookshelf table chair computer lightstand pen pencil
+Kitchen:oven microwave sink refrigerator chair table bottle cup fork knife spoon bowl clock vase scissors  
+Bedroom:bed table vase dryer  
+Livingroom:TV couch plant vase  
+Bathroom:refrigerator toilet  
+Diningroom:none  
+Home_office:laptop mouse keyboard phone plant table  
+Hallway:none  
+else: 
+nation:Istanbul 

@@ -1,0 +1,9 @@
+Kitchen:oven microwave refrigerator bottle glass cup knife spoon bowl  
+Bedroom:phone bed book  
+Livingroom:TV laptop chair table vase  
+Bathroom:toilet dryer  
+Diningroom:TV chair plant table  
+Home_office:TV laptop phone chair table  
+Hallway: 
+else: 
+nation:Edirne türkiye 

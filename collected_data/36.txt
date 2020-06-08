@@ -1,0 +1,9 @@
+Kitchen:microwave TV phone table toilet bottle glass cup knife clock  
+Bedroom:TV bed toilet vase  
+Livingroom:TV laptop mouse phone chair table glass cup book clock vase  
+Bathroom:TV bowl book  
+Diningroom:phone book vase  
+Home_office:oven toaster TV laptop keyboard phone table toilet cup book clock vase  
+Hallway:book clock vase  
+else: 
+nation: 

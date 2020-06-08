@@ -1,7 +1,9 @@
-kitchen:sink knife plate cup pot pan oven microwave coffeepot scrubber
-bedroom:bed light_stand closet 
-living_room:TV speaker sofa 
-bath_room:toilet washstand bathtub shower_head mirror
-laundry_room:washing_machine drying_rack
-dressing_room:closet mirror 
-study_room:table bookshelf computer lightstand pen pencil
+Kitchen:oven microwave toaster sink refrigerator TV chair bottle glass cup fork knife spoon bowl clock  
+Bedroom:TV phone chair bed table  
+Livingroom:phone couch chair table  
+Bathroom:sink toilet  
+Diningroom:phone couch chair  
+Home_office:TV laptop remote mouse keyboard phone couch chair table  
+Hallway:phone table  
+else: 
+nation:Türkiyr 

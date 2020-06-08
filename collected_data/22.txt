@@ -1,7 +1,9 @@
-kitchen:sink water_purifier
-bedroom:bed closet lightstand
-living_room:sofa TV table
-bath_room:toilet washstand shower_head
-laundry_room:washing_machine basket 
-dressing_room:table closet
-study_room:table bookshelf computer
+Kitchen:oven microwave toaster sink refrigerator table bottle glass cup fork knife spoon bowl clock scissors  
+Bedroom:bed clock dryer wardrobe night table wardrobe 
+Livingroom:TV laptop remote mouse keyboard couch chair plant table glass fork knife spoon bowl book clock vase scissors  
+Bathroom:refrigerator toilet towels shampoos 
+Diningroom:TV remote couch chair plant table vase  
+Home_office:TV laptop remote mouse keyboard phone couch chair plant table  
+Hallway:carpet lamp 
+else: 
+nation: 

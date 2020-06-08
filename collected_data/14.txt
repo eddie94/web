@@ -1,0 +1,9 @@
+Kitchen:oven toaster sink refrigerator TV chair table bottle cup fork knife spoon bowl  
+Bedroom:laptop mouse keyboard phone chair bed table book  
+Livingroom:TV phone couch table book clock vase scissors bear  
+Bathroom:sink plant toilet dryer  
+Diningroom:couch chair plant table bottle cup fork knife spoon bowl  
+Home_office:laptop remote mouse keyboard  
+Hallway:Carpet 
+else:Balcony(campingchair campingtable pottedplant ashpit) 
+nation:Turkey 

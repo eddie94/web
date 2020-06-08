@@ -1,0 +1,9 @@
+Kitchen:oven toaster refrigerator table bottle cup fork knife spoon bowl scissors  
+Bedroom:TV phone bed clock vase  
+Livingroom:laptop chair clock  
+Bathroom:toilet  
+Diningroom:phone chair table clock  
+Home_office:none  
+Hallway:none  
+else: 
+nation:İstanbul  

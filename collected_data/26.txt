@@ -1,0 +1,9 @@
+Kitchen:oven microwave refrigerator TV phone couch book  
+Bedroom:TV bed toilet bottle book clock  
+Livingroom:TV laptop phone couch chair table cup book clock  
+Bathroom:toilet dryer  
+Diningroom:couch chair table  
+Home_office: 
+Hallway: 
+else: 
+nation:Turkey 

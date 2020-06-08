@@ -1,7 +1,9 @@
-kitchen:plate sink spoon chopstick cup cutting_board kitchen_knife scissors induction refrigerator toaster coffeepot rangehood table dishwasher water_purifier
-bedroom:bed lightstand blanket pillow carpet table
-living_room:table sofa lightstand carpet TV speaker
-bath_room:toilet showerhead washstand soap shampoo rince toothpaste toothbrush towel razor 
-laundry_room:washing_machine dryer drying_rack basket
-dressing_room:hanger 
-study_room:table chair lightstand book bookshelf note pen
+Kitchen:sink refrigerator chair bottle glass cup fork knife spoon bowl  
+Bedroom:chair bed clock  
+Livingroom:TV laptop couch chair table book clock vase  
+Bathroom:toilet dryer  
+Diningroom:chair table cup fork knife spoon bowl  
+Home_office:TV laptop remote mouse keyboard phone couch chair table bottle cup clock scissors  
+Hallway:vase dryer  
+else: 
+nation:İstanbul 

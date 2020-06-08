@@ -1,7 +1,0 @@
-kitchen:knife,dining table,microwave,plates,spoon,chopsticks, refrigerator
-bedroom:bed, pillow, closet, desk
-living_room:couch, sofa, table, TV
-bath_room:toilet, shower head, washlet
-laundry_room:laundry machine, clothes, hanger
-dressing_room:closet, clothes, hanger
-study_room:desk, pencil, pen, chair, computer, keyboard, mouse

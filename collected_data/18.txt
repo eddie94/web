@@ -1,7 +1,9 @@
-kitchen:cutting_board
-bedroom:bed
-living_room:sofa
-bath_room:toilet
-laundry_room:washing_machine
-dressing_room:closet
-study_room:light_stand
+Kitchen:oven microwave toaster sink refrigerator chair table bottle glass cup fork knife spoon bowl  
+Bedroom:bed clock night table, wardrobe 
+Livingroom:TV couch chair plant table book clock vase bookcase 
+Bathroom:toilet scissors dryer toothpaste, toothbrush, razor blade, mirror 
+Diningroom:chair plant table bottle glass cup fork knife spoon bowl clock vase cabinet 
+Home_office:laptop remote mouse keyboard phone couch chair table  
+Hallway:plant vase none coat hanger, shoe cupboard 
+else: 
+nation:Turkey 

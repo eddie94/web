@@ -1,0 +1,9 @@
+Kitchen:oven microwave toaster sink refrigerator table bottle glass cup fork knife spoon bowl book vase Saucepan, Kettle 
+Bedroom:couch bed book bear  
+Livingroom:TV laptop remote mouse keyboard phone couch chair plant table book clock vase  
+Bathroom:toilet dryer  
+Diningroom:chair table bottle glass cup fork knife bowl clock vase scissors  
+Home_office:oven microwave toaster sink refrigerator TV laptop remote mouse keyboard phone couch chair plant bed table toilet bottle glass cup fork knife spoon bowl book clock vase scissors bear dryer none bookcase 
+Hallway:clock Stand for coat ( coat hanger )  
+else: 
+nation: 

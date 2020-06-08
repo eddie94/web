@@ -1,7 +1,0 @@
-kitchen:refrigerator microwave gas_range dining_table kitchen_knife toaster plate sink fork spoon chopsticks
-bedroom:bed closet table drawer 
-living_room:TV speaker table
-bath_room:toilet shower_head soap towel
-laundry_room:washing_machine detergent 
-dressing_room:closet hanger clothes 
-study_room:table book chair pencil pen

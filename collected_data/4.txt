@@ -1,7 +1,9 @@
-kitchen:gas_range
-bedroom:bed
-living_room:TV
-bath_room:shower_head
-laundry_room:washing_machine
-dressing_room:closet
-study_room:bookshelf table
+Kitchen:oven microwave toaster sink refrigerator TV remote chair plant table bottle glass cup fork knife spoon bowl clock vase scissors  
+Bedroom:sink TV laptop remote phone couch chair bed table book clock bear dryer  
+Livingroom:TV laptop remote mouse keyboard phone couch chair plant bottle glass cup book clock vase scissors  
+Bathroom:toilet dryer  
+Diningroom:TV remote couch chair table bottle glass cup fork knife spoon bowl clock  
+Home_office:TV laptop remote mouse keyboard phone couch chair table cup clock  
+Hallway:refrigerator clock scissors  
+else:Balcony (couch chair potted plant clothes TV table sink) 
+nation: 

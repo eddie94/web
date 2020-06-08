@@ -1,7 +1,9 @@
-kitchen:gas_range
-bedroom:bed
-living_room:sofa
-bath_room:shower_head
-laundry_room:washing_machine
-dressing_room:hanger
-study_room:bookshelf
+Kitchen:refrigerator chair table glass cup  
+Bedroom:bed  
+Livingroom:TV  
+Bathroom:toilet  
+Diningroom:cup  
+Home_office:laptop chair  
+Hallway:scissors  
+else: 
+nation: 

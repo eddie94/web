@@ -1,7 +1,9 @@
-kitchen:
-bedroom:
-living_room:
-bath_room:
-laundry_room:
-dressing_room:
-study_room:
+Kitchen:oven microwave toaster refrigerator chair table bottle glass cup fork knife spoon bowl clock vase scissors Plate 
+Bedroom:laptop couch bed clock bear Pillow 
+Livingroom:TV mouse couch chair table book clock vase Carpet 
+Bathroom:toilet dryer Shower 
+Diningroom:chair plant table glass fork knife spoon bowl Tissues 
+Home_office:microwave TV laptop remote keyboard phone couch chair table toilet bottle clock vase Earphones 
+Hallway:none Carpet 
+else:Balcony(chair table lights) 
+nation:Turkey 

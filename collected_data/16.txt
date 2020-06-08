@@ -1,7 +1,9 @@
-kitchen:sink
-bedroom:bed
-living_room:TV
-bath_room:washstand
-laundry_room:washing_macine
-dressing_room:habger
-study_room:bookshelf
+Kitchen:oven microwave toaster sink refrigerator table bottle cup fork knife spoon bowl  
+Bedroom:bed  
+Livingroom:TV remote phone table clock  
+Bathroom:toilet dryer  
+Diningroom:phone table  
+Home_office:laptop remote mouse keyboard phone table cup book clock  
+Hallway:none  
+else: 
+nation:Turkey 

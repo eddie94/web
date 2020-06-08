@@ -1,0 +1,9 @@
+Kitchen: 
+Bedroom: 
+Livingroom: 
+Bathroom: 
+Diningroom: 
+Home_office: 
+Hallway: 
+else: 
+nation:İstanbul 

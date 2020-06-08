@@ -1,0 +1,9 @@
+Kitchen:oven microwave toaster sink refrigerator  
+Bedroom:TV laptop remote chair plant bed clock bear  
+Livingroom:TV laptop remote chair plant clock  
+Bathroom:toilet scissors dryer  
+Diningroom:refrigerator chair table bottle glass cup  
+Home_office:TV laptop remote mouse keyboard phone couch chair  
+Hallway:plant clock  
+else: 
+nation:Vietnam 

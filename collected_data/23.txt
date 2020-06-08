@@ -1,0 +1,9 @@
+Kitchen:oven microwave toaster sink refrigerator fork knife spoon scissors  
+Bedroom:laptop remote glass cup clock  
+Livingroom:TV laptop book  
+Bathroom:sink dryer  
+Diningroom:fork knife spoon  
+Home_office:phone couch chair plant  
+Hallway:phone couch chair  
+else: 
+nation:turkey 

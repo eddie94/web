@@ -1,7 +1,9 @@
-kitchen:refrigerator dining_table rice_cooker microwave
-bedroom:bed table closet
-living_room:TV sofa
-bath_room:toilet washstand shampoo rince
-laundry_room:clothes washing_machine
-dressing_room:clothes closet
-study_room:book table
+Kitchen:oven qw 
+Bedroom:none  
+Livingroom:clock  
+Bathroom:oven  
+Diningroom:microwave  
+Home_office:laptop  
+Hallway:microwave  
+else:qweqwe 
+nation:qwe 

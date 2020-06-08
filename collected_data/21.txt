@@ -1,0 +1,9 @@
+Kitchen:oven microwave toaster sink refrigerator plant bed table bottle glass cup fork knife spoon bowl bear  
+Bedroom:plant bed book  
+Livingroom:TV couch chair plant table clock vase bear  
+Bathroom:sink plant toilet dryer  
+Diningroom:TV plant table clock  
+Home_office:plant table  
+Hallway:none  
+else: 
+nation:Kütahya 

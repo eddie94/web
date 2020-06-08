@@ -1,7 +1,9 @@
-kitchen:detergent kitchen_knife cutting_board tray refrigerator microwave gas_range induction coffeepot sink plate spoon chopsticks dishcloth
-bedroom:bed table
-living_room:sofa TV phone clock carpet cushion
-bath_room:washstand toilet toothbrush toothpaste shampoo tissue
-laundry_room:detergent washing_machine dryer drying_rack basket
-dressing_room:closet hanger 
-study_room:book table bookshelf prncilcase computer chair
+Kitchen:microwave toaster refrigerator TV phone chair plant table bottle glass cup fork knife spoon bowl clock vase scissors  
+Bedroom:TV laptop remote mouse keyboard phone plant bed book clock scissors bear  
+Livingroom:TV laptop remote mouse keyboard phone couch chair plant table glass cup fork knife spoon bowl clock vase scissors  
+Bathroom:toilet scissors dryer  
+Diningroom:plant table fork clock vase  
+Home_office:laptop mouse keyboard phone couch chair bed table cup book clock vase scissors  
+Hallway:none carpet 
+else: 
+nation:Turkey 

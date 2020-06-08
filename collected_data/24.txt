@@ -1,0 +1,9 @@
+Kitchen:oven microwave toaster refrigerator chair table bottle glass cup fork knife spoon bowl clock  
+Bedroom:chair bed clock  
+Livingroom:TV laptop mouse keyboard phone book clock vase  
+Bathroom:toilet dryer  
+Diningroom:TV laptop mouse keyboard phone chair plant table  
+Home_office:TV laptop mouse keyboard phone chair table clock  
+Hallway:plant vase  
+else: 
+nation:Turkey 
