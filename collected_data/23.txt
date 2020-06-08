@@ -6,4 +6,4 @@ Diningroom:fork knife spoon
 Home_office:phone couch chair plant  
 Hallway:phone couch chair  
 else: 
-nation:turkey 
+nation:Turkey

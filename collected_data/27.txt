@@ -6,4 +6,4 @@ Diningroom:TV chair plant table
 Home_office:TV laptop phone chair table  
 Hallway: 
 else: 
-nation:Edirne türkiye 
+nation:Turkey

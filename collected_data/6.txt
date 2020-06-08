@@ -6,4 +6,4 @@ Diningroom:none
 Home_office:laptop mouse keyboard phone plant table  
 Hallway:none  
 else: 
-nation:Istanbul 
+nation:Turkey

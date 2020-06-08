@@ -6,4 +6,4 @@ Diningroom:TV phone chair plant table bottle glass cup fork knife spoon bowl boo
 Home_office:oven microwave toaster sink refrigerator TV laptop remote keyboard phone chair plant bed table toilet glass cup fork knife spoon bowl book clock vase scissors bear dryer  
 Hallway:none  
 else: 
-nation:Türkiye  
+nation:Turkey 

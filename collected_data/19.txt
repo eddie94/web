@@ -6,4 +6,4 @@ Diningroom:phone couch chair
 Home_office:TV laptop remote mouse keyboard phone couch chair table  
 Hallway:phone table  
 else: 
-nation:Türkiyr 
+nation:Turkey 

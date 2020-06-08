@@ -6,4 +6,4 @@ Diningroom:chair table cup fork knife spoon bowl
 Home_office:TV laptop remote mouse keyboard phone couch chair table bottle cup clock scissors  
 Hallway:vase dryer  
 else: 
-nation:İstanbul 
+nation:Turkey 

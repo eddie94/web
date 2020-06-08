@@ -6,4 +6,4 @@ Diningroom:TV plant table clock
 Home_office:plant table  
 Hallway:none  
 else: 
-nation:Kütahya 
+nation:Turkey

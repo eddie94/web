@@ -1,9 +1,0 @@
-Kitchen:oven qw 
-Bedroom:none  
-Livingroom:clock  
-Bathroom:oven  
-Diningroom:microwave  
-Home_office:laptop  
-Hallway:microwave  
-else:qweqwe 
-nation:qwe 

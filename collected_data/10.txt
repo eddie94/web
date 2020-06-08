@@ -6,4 +6,4 @@ Diningroom:phone chair table clock
 Home_office:none  
 Hallway:none  
 else: 
-nation:İstanbul  
+nation:Turkey

@@ -6,4 +6,4 @@ Diningroom:couch chair plant table bottle glass cup fork knife spoon bowl vase
 Home_office:TV laptop remote mouse keyboard phone couch chair table book clock vase  
 Hallway:plant clock vase  
 else: 
-nation:Istanbul 
+nation:Turkey

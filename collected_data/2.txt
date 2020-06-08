@@ -1,9 +1,0 @@
-Kitchen:oven microwave toaster refrigerator bottle glass cup fork knife spoon bowl scissors  
-Bedroom:bed test 
-Livingroom:scissors test 
-Bathroom:scissors test 
-Diningroom:scissors test 
-Home_office:scissors test 
-Hallway:none  
-else:test test test 
-nation:korea 
